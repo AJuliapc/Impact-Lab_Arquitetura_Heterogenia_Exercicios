@@ -22,7 +22,7 @@ int main(){
     }
 
     stbi_write_png("gato.png", width, height, CHANNEL_NUM, rgb_image, width * CHANNEL_NUM);
-    stbi_write_jpg("gato.jpg", width, height, CHANNEL_NUM, rgb_image, 100);
+    stbi_write_jpg("gato_copia.jpg", width, height, CHANNEL_NUM, rgb_image, 100);
 
     stbi_image_free(rgb_image);
 
